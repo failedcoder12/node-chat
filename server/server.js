@@ -24,7 +24,7 @@ socket.on('createMessage',(message)=> {
 socket.emit('newMessage',{
 	from: 'User',
 	text: 'Ok',
-	createAt: 123
+	createAt: 12312
 });
 	socket.on('disconnect',()=>{
 		console.log('User was disconnected');
