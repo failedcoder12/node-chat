@@ -14,3 +14,8 @@ socket.on('disconnect',()=>{
 socket.on('newMessage',function(message) {
 	console.log('newMessage',message);
 });
+
+socket.emit('createMessage',{
+	from: 'Pokemon',
+	text: 'hi'
+});
